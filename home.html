@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rss</title>
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+	<div id="wrapper" data-rss-url="http://k.img.com.ua/rss/ua/news.xml" data-type="xml">
+		<select id="news-category">
+			<option value="http://k.img.com.ua/rss/ua/news.xml">Последние</option>
+			<option value="http://k.img.com.ua/rss/ua/ukraine.xml">Украина</option>
+			<option value="http://k.img.com.ua/rss/ru/good_news.xml">Хорошие новости</option>
+			<option value="http://k.img.com.ua/rss/ru/magnolia.xml">Проиcшествия</option>
+		</select>
+		<h1>News</h1>
+		<div id="news-list"></div>
+	</div>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="dist/build.js"></script>
+</body>
+</html>
